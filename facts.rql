@@ -1,0 +1,9 @@
+fun_fact(name: string, role: string, fact: string) := {
+SELECT * 
+FROM READ("https://github.com/KingSebastian/UsefullLinks/blob/bd4c062ba77c6d4c2349fad41b337472940d19c3/facts.json") f
+WHERE 
+    f.name like name and 
+    f.role like role and 
+    f.fact like fact
+limit 10
+};
