@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://cdn.raw-labs.com/endpoint-schemaV0.9.json
+raw: 0.9
+endpoint: GET
+metadata:
+  title: Fun facts
+  description: Retrive fun facts
+  tags:
+    - fun facts
+code: rql
+declaration: fun_fact
+codeFile: facts.rql
+format: json
+security:
+  public: true
+computeClass: normal
+enabled: true
