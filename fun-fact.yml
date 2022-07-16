@@ -15,5 +15,5 @@ security:
 computeClass: normal
 enabled: true
 tests:
-  - name: fun_facts
+  - name: fun_fact
     description: Run the 'All facts' endpoint.
